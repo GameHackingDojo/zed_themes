@@ -6,7 +6,6 @@
       "name": "Game Hacking Dojo - Dark",
       "appearance": "dark",
       "style": {
-        // "background.appearance": "transparent",
         "background.appearance": "blurred",
         "background": "#11142288",
         "editor.background": "#11142244",
@@ -26,7 +25,6 @@
         "border.disabled": "#101014",
         "elevated_surface.background": "#14141b",
         "surface.background": "#16161e",
-        //"background": "#1a1b26",
         "element.background": "#1a1b26",
         "element.hover": "#441015",
         "element.active": "#E5B020",
@@ -42,21 +40,14 @@
         "text.muted": "#787c99",
         "text.placeholder": "#787c99",
         "text.disabled": "#414868",
-        "text.accent": "#A31D3A", // Red
+        "text.accent": "#A31D3A", 
         "icon": "#787c99",
         "icon.muted": "#787c99",
         "icon.disabled": "#414868",
         "icon.placeholder": "#441015",
-        "icon.accent": "#A31D3A", // Red
-        //"status_bar.background": "#16161e",
-        //"title_bar.background": "#16161e",
+        "icon.accent": "#A31D3A", 
         "title_bar.inactive_background": "#16161e",
-        //"toolbar.background": "#16161e",
-        //"tab_bar.background": "#16161e",
-        //"tab.inactive_background": "#16161e",
-        //"tab.active_background": "#414868",
         "search.match_background": "#262b44",
-        //"panel.background": "#16161e",
         "panel.focused_border": null,
         "pane.focused_border": null,
         "scrollbar.thumb.background": "#41486880",
@@ -65,7 +56,6 @@
         "scrollbar.track.background": "#1a1b2680",
         "scrollbar.track.border": "#101014",
         "editor.foreground": "#A9B1D6",
-        //"editor.background": "#1a1b26",
         "editor.gutter.background": "#1a1b26",
         "editor.subheader.background": "#1a1b26",
         "editor.active_line.background": "#101020",
@@ -77,7 +67,6 @@
         "editor.active_wrap_guide": "#101014",
         "editor.document_highlight.read_background": "#363b54",
         "editor.document_highlight.write_background": "#f7768e",
-        //"terminal.background": "#16161e",
         "terminal.foreground": "#C0C0C0",
         "terminal.bright_foreground": null,
         "terminal.dim_foreground": null,
@@ -105,7 +94,7 @@
         "terminal.ansi.white": "#569CD6",
         "terminal.ansi.bright_white": "#9470DB",
         "terminal.ansi.dim_white": null,
-        "link_text.hover": "#A31D3A", // Red
+        "link_text.hover": "#A31D3A", 
         "conflict": "#bb9af7",
         "conflict.background": "#1a1b26",
         "conflict.border": "#414868",
@@ -207,16 +196,16 @@
           "constant.character": { "color": "#ce9178" },
           "constant.other": { "color": "#dcdcaa" },
 
-          "variable": { "color": "#A9B1D6" }, //white //#90A0CC
+          "variable": { "color": "#A9B1D6" }, 
           "variable.language": { "color": "#569cd6" },
           "variable.parameter": { "color": "#804de7" },
           "variable.other": { "color": "#9cdcfe" },
           "variable.special": { "color": "#3E8BD9" },
 
-          "function": { "color": "#B03366" }, // Red
-          "function.builtin": { "color": "#B03366" }, // Red
-          "function.call": { "color": "#B03366" }, // Red
-          "function.parameter": { "color": "#B03366" }, // Red
+          "function": { "color": "#B03366" }, 
+          "function.builtin": { "color": "#B03366" }, 
+          "function.call": { "color": "#B03366" }, 
+          "function.parameter": { "color": "#B03366" }, 
 
           "type": { "color": "#804DE7" },
           "type.builtin": { "color": "#E5B020" },
