@@ -6,6 +6,7 @@
       "name": "Game Hacking Dojo - Dark",
       "appearance": "dark",
       "style": {
+        // "background.appearance": "transparent",
         "background.appearance": "blurred",
         "background": "#11142288",
         "editor.background": "#11142244",
@@ -13,6 +14,7 @@
         "title_bar.background": "#00006606",
         "toolbar.background": "#00006606",
         "terminal.background": "#00006606",
+        "surface.background": "#00006606",
         "status_bar.background": "#000000AA",
         "tab.active_background": "#00000044",
         "tab.inactive_background": "#00000000",
@@ -23,12 +25,11 @@
         "border.selected": "#101014",
         "border.transparent": "#101014",
         "border.disabled": "#101014",
-        "elevated_surface.background": "#14141b",
-        "surface.background": "#16161e",
+        "elevated_surface.background": "#111422F0",
         "element.background": "#1a1b26",
-        "element.hover": "#441015",
+        "element.hover": "#A31D3A00",
         "element.active": "#E5B020",
-        "element.selected": "#441015",
+        "element.selected": "#A31D3A20",
         "element.disabled": "#414868",
         "drop_target.background": "#1e202e",
         "ghost_element.background": "#1a1b26",
@@ -40,13 +41,13 @@
         "text.muted": "#787c99",
         "text.placeholder": "#787c99",
         "text.disabled": "#414868",
-        "text.accent": "#A31D3A", 
+        "text.accent": "#A31D3A", // Red
         "icon": "#787c99",
         "icon.muted": "#787c99",
         "icon.disabled": "#414868",
         "icon.placeholder": "#441015",
-        "icon.accent": "#A31D3A", 
-        "title_bar.inactive_background": "#16161e",        
+        "icon.accent": "#A31D3A", // Red
+        "title_bar.inactive_background": "#11142244",
         "search.match_background": "#262b44",
         "panel.focused_border": null,
         "pane.focused_border": null,
@@ -56,9 +57,9 @@
         "scrollbar.track.background": "#1a1b2680",
         "scrollbar.track.border": "#101014",
         "editor.foreground": "#A9B1D6",
-        "editor.gutter.background": "#1a1b26",
+        "editor.gutter.background": "#11142288",
         "editor.subheader.background": "#1a1b26",
-        "editor.active_line.background": "#101020",
+        "editor.active_line.background": "#11142288",
         "editor.highlighted_line.background": "#1e202e",
         "editor.line_number": "#363b54",
         "editor.active_line_number": "#A9B1D6",
@@ -67,8 +68,8 @@
         "editor.indent_guide_active": "#7080A0",
         "editor.wrap_guide": "#101014",
         "editor.active_wrap_guide": "#101014",
-        "editor.document_highlight.read_background": "#363b54",
-        "editor.document_highlight.write_background": "#f7768e",
+        "editor.document_highlight.read_background": "#505A8040",
+        "editor.document_highlight.write_background": "#A31D3A60",
         "terminal.foreground": "#C0C0C0",
         "terminal.bright_foreground": null,
         "terminal.dim_foreground": null,
@@ -96,7 +97,7 @@
         "terminal.ansi.white": "#569CD6",
         "terminal.ansi.bright_white": "#9470DB",
         "terminal.ansi.dim_white": null,
-        "link_text.hover": "#A31D3A", 
+        "link_text.hover": "#A31D3A", // Red
         "conflict": "#bb9af7",
         "conflict.background": "#1a1b26",
         "conflict.border": "#414868",
@@ -139,20 +140,31 @@
         "warning": "#e0af68",
         "warning.background": "#1a1b26",
         "warning.border": "#414868",
+        "players": [
+          {
+            "cursor": "#A31D3AAA",
+            // "background": "#00FF00",
+            "selection": "#A31D3A20"
+          }
+        ],
         "syntax": {
           "attribute": { "color": "#505A80" },
+
           "comment": { "color": "#505A80", "fontStyle": "italic" },
           "comment.block": { "color": "#505A80", "fontStyle": "italic" },
           "comment.line": { "color": "#505A80", "fontStyle": "italic" },
           "comment.doc": { "color": "#505A80", "fontStyle": "italic" },
+
           "keyword": { "color": "#569CD6", "fontStyle": "bold" },
           "keyword.control": { "color": "#d73a49", "fontStyle": "bold" },
           "keyword.operator": { "color": "#c586c0" },
           "keyword.other": { "color": "#569cd6" },
+
           "operator": { "color": "#3E8BD9" },
           "operator.assignment": { "color": "#569cd6" },
           "operator.arithmetic": { "color": "#dcdcaa" },
           "operator.logical": { "color": "#4ec9b0" },
+
           "punctuation": { "color": "#7080A0" },
           "punctuation.delimiter": { "color": "#7080A0" },
           "punctuation.bracket": { "color": "#FFE123" },
@@ -161,8 +173,10 @@
           "punctuation.square": { "color": "#ffcb6b" },
           "punctuation.separator": { "color": "#EACD61" },
           "punctuation.terminator": { "color": "#dcdcaa" },
+
           "punctuation.special": { "color": "#7080A0" },
           "punctuation.list_marker": { "color": "#c0caf5" },
+
           "string": { "color": "#9470DB" },
           "string.quoted.single": { "color": "#9470DB" },
           "string.quoted.double": { "color": "#9470DB" },
@@ -172,30 +186,36 @@
           "string.interpolated": { "color": "#dcdcaa" },
           "string.regexp": { "color": "#d16969" },
           "string.escape": { "color": "#7080A0", "fontStyle": "bold" },
+
           "string.regex": { "color": "#c0caf5" },
           "string.special": { "color": "#c0caf5" },
           "string.special.symbol": { "color": "#c0caf5" },
+
           "number": { "color": "#E5B020" },
           "number.integer": { "color": "#E5B020" },
           "number.float": { "color": "#E5B020" },
           "number.hex": { "color": "#E5B020" },
           "number.octal": { "color": "#E5B020" },
           "number.binary": { "color": "#E5B020" },
+
           "boolean": { "color": "#569CD6" },
           "constant": { "color": "#569CD6" },
           "constant.language": { "color": "#569CD6" },
           "constant.numeric": { "color": "#b5cea8" },
           "constant.character": { "color": "#ce9178" },
           "constant.other": { "color": "#dcdcaa" },
-          "variable": { "color": "#A9B1D6" }, 
+
+          "variable": { "color": "#A9B1D6" }, //white //#90A0CC
           "variable.language": { "color": "#569cd6" },
           "variable.parameter": { "color": "#804de7" },
           "variable.other": { "color": "#9cdcfe" },
           "variable.special": { "color": "#3E8BD9" },
-          "function": { "color": "#B03366" }, 
-          "function.builtin": { "color": "#B03366" }, 
-          "function.call": { "color": "#B03366" }, 
-          "function.parameter": { "color": "#B03366" }, 
+
+          "function": { "color": "#B03366" }, // Red
+          "function.builtin": { "color": "#B03366" }, // Red
+          "function.call": { "color": "#B03366" }, // Red
+          "function.parameter": { "color": "#B03366" }, // Red
+
           "type": { "color": "#804DE7" },
           "type.builtin": { "color": "#E5B020" },
           "type.class": { "color": "#4fc1ff" },
@@ -203,18 +223,23 @@
           "type.interface": { "color": "#EACD61" },
           "type.struct": { "color": "#c586c0" },
           "type.alias": { "color": "#c586c0" },
+
           "namespace": { "color": "#ffcb6b" },
           "module": { "color": "#dcdcaa" },
           "import": { "color": "#4ec9b0" },
+
           "macro": { "color": "#d16969", "fontStyle": "bold" },
           "annotation": { "color": "#d16969", "fontStyle": "italic" },
+
           "invalid": { "color": "#ff0000", "fontStyle": "underline" },
           "warning": { "color": "#ffcc00" },
           "debug": { "color": "#c586c0" },
+
           "markup.heading": { "color": "#569cd6", "fontStyle": "bold" },
           "markup.bold": { "fontStyle": "bold" },
           "markup.italic": { "fontStyle": "italic" },
           "markup.list": { "color": "#dcdcaa" },
+
           "constructor": { "color": "#c0caf5" },
           "emphasis": { "color": "#f7768e", "font_style": "italic" },
           "emphasis.strong": { "color": "#f7768e", "font_weight": 700 },
